@@ -1,0 +1,91 @@
+1603205271664	geckodriver	INFO	Listening on 127.0.0.1:60725
+1603205274676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\I355372\\AppData\\Local\\Temp\\rust_mozprofilepZdO5p"
+console.error: Enterprise Policies: 
+  Error running 
+  function() {
+    [native code]
+}
+  for onBeforeAddons:
+  Message: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setIntPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource:///modules/policies/Policies.jsm :: setDefaultPref :: line 2057"  data: no]
+  Stack:
+    setDefaultPref@resource:///modules/policies/Policies.jsm:2057:16
+setAndLockPref@resource:///modules/policies/Policies.jsm:2024:17
+onBeforeAddons@resource:///modules/policies/Policies.jsm:1518:25
+_runPoliciesCallbacks@resource://gre/modules/EnterprisePoliciesParent.jsm:237:9
+BG_observe@resource://gre/modules/EnterprisePoliciesParent.jsm:286:14
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603205279762	Marionette	INFO	Listening on port 60733
+1603205279924	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=20, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1603205345773	Marionette	INFO	Stopped listening on port 60733
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1603205396353	geckodriver	INFO	Listening on 127.0.0.1:63424
+1603205399397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\I355372\\AppData\\Local\\Temp\\rust_mozprofileXVg1HA"
+console.error: Enterprise Policies: 
+  Error running 
+  function() {
+    [native code]
+}
+  for onBeforeAddons:
+  Message: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setIntPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource:///modules/policies/Policies.jsm :: setDefaultPref :: line 2057"  data: no]
+  Stack:
+    setDefaultPref@resource:///modules/policies/Policies.jsm:2057:16
+setAndLockPref@resource:///modules/policies/Policies.jsm:2024:17
+onBeforeAddons@resource:///modules/policies/Policies.jsm:1518:25
+_runPoliciesCallbacks@resource://gre/modules/EnterprisePoliciesParent.jsm:237:9
+BG_observe@resource://gre/modules/EnterprisePoliciesParent.jsm:286:14
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603205402229	Marionette	INFO	Listening on port 63432
+1603205402544	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=20, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.47/vendors~index-TbYbF.js, line 1254: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-ams-ui/1.1.1/widget/list/model.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-ams-ui/1.1.1/widget/list/model.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-ams-ui/1.1.1/module/sns/index.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-ams-ui/1.1.1/module/sns/index.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20170208145626/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20170208145626/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-channel-ui/1.1.0/bestselling/bestselling-index.js, line 5: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-channel-ui/1.1.0/bestselling/bestselling-index.js, line 5: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1603205475487	Marionette	INFO	Stopped listening on port 63432
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

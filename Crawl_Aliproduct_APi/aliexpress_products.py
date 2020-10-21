@@ -1,13 +1,22 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import pickle
 import time
 
-
+#PATH = "C:/UsersI355372/Documents/Duc/Personal-Project/Study_Project/Crawl_Aliproduct_APi/chromedriver.exe"
+option = Options()     
+# option.add_argument("--disable-infobars")
+# option.add_argument("start-maximized")
+# option.add_argument("--disable-extensions")
+# option.add_experimental_option("prefs", { 
+#     "profile.default_content_setting_values.notifications": 2 
+# })
 driver = webdriver.Firefox()
 driver.get("https://aliexpress.com")
-cookies = pickle.load(open("cookies.pickle", "rb"))
-for cookie in cookies:
-    driver.add_cookie(cookie)
+pickle.dump( driver.get_cookies() , open("cookies.pkl","wb"))
+# cookies = pickle.load(open("cookies.pickle", "rb"))
+# for cookie in cookies:
+#     driver.add_cookie(cookie)
 
 
 def extract_product_urls_from_list_page(list_page_url):
